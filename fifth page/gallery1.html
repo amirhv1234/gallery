@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="all.min.css">
+    <link rel="stylesheet" href="gallery1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="jquery.js"></script>
+    <script src="gallery.js"></script>
+    <title>gallery</title>
+</head>
+<body>
+    <udio src="https://sv.jenabmusic.com/collections/aram/001/Relax%20Music%20-%2007.mp3"  autoplay></audio>
+<div class="top-container"> 
+</div>
+<div class="container1">
+        <div class="div-search">
+            <input type="text"  id="search-box" placeholder="enter" >
+            <button class="btn-search" onclick="input1()"> search</button>
+            <i class="fa fa-search" id="search-icon" ></i>
+            <a href="./gallery1.html"><i class="fa fa-window-close" id="search-icon-close"></i></a>
+        </div>
+        <div class="div-main">
+            <div id="div-photo1" onclick="citypage()" >
+                <img src="./tokyo/photo-1493514789931-586cb221d7a7.jpg" alt="" class="img-city">
+                <h1 class="demo-city">city</h1>
+                <p class="time-photo1"> 2021/12/10</p>
+            </div>
+                <div id="fruits" onclick="fruitpage()">
+                    <img src="./fruits/download (1).jpg" alt="" class="fruit-photo">
+                    <p class="demo-fruit">FRUIT</p>
+                    <P class="time-photo2">2021/12/09</P>
+                </div>
+                <div id="mountain" onclick="mountainpage()">
+                    <img src="./mountain/photo-1485470733090-0aae1788d5af.jpg" alt="" class="mountain-photo">
+                    <p class="demo-mountain">MOUNTAIN</p>
+                    <p class="time-photo3">2021/12/08</p>
+                </div>
+                <div id="food" onclick="foodpage()">
+                    <img src="./food/high-quality-food-stock-photos-thumbnail.jpg" alt="" class="food-photo">
+                    <p class="demo-food">FOOD</p>
+                    <p class="time-photo4">2021/12/08</p>
+                </div>
+                <div id="car" onclick="secondcar()">
+                    <img src="./car/ford-mustang-Used-Cars-for-Sale-Near-Me-in-Arlington-Garland-Humble-Joshua-Richardson-Houston-TX-Where-to-Find-High-Quality-Buy-Here-Pay-Here-Used-Cars.jpeg" alt="" class="car-photo">
+                    <p class="demo-car">CAR</p>
+                    <p class="time-photo5">2021/12/07</p>
+                </div>
+                <div id="jungle" onclick="junglepage()">
+                    <img src="./jungle/download.jpg" alt="" class="jungle-photo">
+                    <p class="demo-jungle">JUNGLE</p>
+                    <p class="time-photo6">2021/12/06</p>
+                </div>
+                <div id="technology" onclick="techpage()">
+                    <img src="./technology/0bfb7a0186b1e2c89dd7bbd4d016a9ce.jpg" alt="" class="tech-photo">
+                    <p class="demo-tech">TECHNOLOGY</p>
+                    <p class="time-photo7">2021/12/05</p>
+                </div>
+        </div>  
+</div>
+<div id="second-page">
+    <div class="div-car">
+       <img src="./car/105957.jpg" alt="" class="img-second-car">
+       <div class="img-second-car-demo">
+           <p class="demo-second-car">LAMBORGHINI</p>
+           <p class="count-second-car">ITALY</p>
+        </div>
+    </div>
+    <a href="./gallery1.html"><i class="fa fa-window-close" id="search-icon-close-second"></i></a>
+</div>
+<div id="fruit-page">
+    <div class="div-fruit">
+       <img src="./fruits/800px_COLOURBOX2088645.jpg" alt="" class="img-second-fruit">
+       <div class="img-second-fruit-demo">
+           <p class="demo-second-fruit">MULBERRY</p>
+           <p class="count-second-fruit">FRUIT</p>
+        </div>
+    </div>
+    <a href="./gallery1.html"><i class="fa fa-window-close" id="search-icon-close-second"></i></a>
+</div>
+<div id="mountain-page">
+    <div class="div-mountain">
+       <img src="./mountain/photo-1549880181-56a44cf4a9a5.jpg" alt="" class="img-second-mountain">
+       <div class="img-second-mountain-demo">
+           <p class="demo-second-mountain">MOUNTAIN</p>
+           <p class="count-second-mountain">EVEREST</p>
+        </div>
+    </div>
+    <a href="./gallery1.html"><i class="fa fa-window-close" id="search-icon-close-second"></i></a>
+</div>
+<div id="food-page">
+    <div class="div-food">
+       <img src="./food/images (1).jpg" alt="" class="img-second-food">
+       <div class="img-second-food-demo">
+           <p class="demo-second-food">FOOD</p>
+           <p class="count-second-food">ITALY</p>
+        </div>
+    </div>
+    <a href="./gallery1.html"><i class="fa fa-window-close" id="search-icon-close-second"></i></a>
+</div>
+<div id="jungle-page">
+    <div class="div-jungle">
+       <img src="./jungle/adobestock-339633027.jpg" alt="" class="img-second-jungle">
+       <div class="img-second-jungle-demo">
+           <p class="demo-second-jungle">JUNGLE</p>
+           <p class="count-second-jungle">AMAZON</p>
+        </div>
+    </div>
+    <a href="./gallery1.html"><i class="fa fa-window-close" id="search-icon-close-second"></i></a>
+</div>
+<div id="tech-page">
+    <div class="div-tech">
+       <img src="./technology/digital-cyberspace-data-network-connections_24070-1044.jpg" alt="" class="img-second-tech">
+       <div class="img-second-jungle-demo">
+           <p class="demo-second-tech">TECHNOLOGY</p>
+           <p class="count-second-tech">FUTURE</p>
+        </div>
+    </div>
+    <a href="./gallery1.html"><i class="fa fa-window-close" id="search-icon-close-second"></i></a>
+</div>
+<div id="city-page">
+    <div class="div-city">
+       <img src="./photo-1543872084-c7bd3822856f.jpg" alt="" class="img-second-city">
+       <div class="img-second-city-demo">
+           <p class="demo-second-city">CITY</p>
+           <p class="count-second-city">NEWYORK</p>
+        </div>
+    </div>
+    <a href="./gallery1.html"><i class="fa fa-window-close" id="search-icon-close-second"></i></a>
+</div>
+</body>
+</html>
